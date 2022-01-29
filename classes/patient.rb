@@ -1,3 +1,3 @@
 class Patient < ActiveRecord::Base
-    has_one :speciality
+    has_many :reservations
 end
